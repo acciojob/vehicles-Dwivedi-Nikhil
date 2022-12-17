@@ -8,8 +8,8 @@ public class F1 extends Car {
 //        name ="Mercedes";
 //        isManual=false;   tried this 1st
 
-//        super(name,wheels,doors,gear,isManual,tupe,serat); than tried this
-//        super(name, isMAnual)      than this
+//        super(name,wheels,doors,gear,isManual,type,seat); than tried this
+//        super(name, isManual)      than this
 
         //**** this was problematic to me*****
 
