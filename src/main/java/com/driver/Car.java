@@ -23,6 +23,35 @@ public class Car extends Vehicle {
         this.isManual=isManual;
     }
 
+    //no idea about getter function....added as told by someone
+    public int getWheels() {
+        return wheels;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public int getGears() {
+        return gears;
+    }
+
+    public boolean isManual() {
+        return isManual;
+    }
+
+    public int getCurrentGear() {
+        return currentGear;
+    }
+
+    public int getSeats() {
+        return seats;
+    }
+
     public void changeGear(int newGear){
         newGear=currentGear;
         System.out.println("changeGear method called - The gear is changed to: " + currentGear);
