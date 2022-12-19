@@ -21,7 +21,7 @@ public class Vehicle {
     public void move(int speed, int direction){
         //set the values of currentSpeed and currentDirection
 
-//  mistakes      currentSpeed += speed;
+// mistake       currentSpeed += speed;
 //        currentDirection += direction;
         this.currentSpeed = speed;
         this.currentDirection = direction;
@@ -33,7 +33,7 @@ public class Vehicle {
         return currentDirection;
     }
    // public void setCurrentDirection(int currentDirection) {this.currentDirection = currentDirection;}
-
+//setters not needed
     public int getCurrentSpeed() {
         return currentSpeed;
     }

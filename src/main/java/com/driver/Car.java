@@ -19,11 +19,13 @@ public class Car extends Vehicle {
         this.doors=doors;
         this.type=type;
         this.gears =gears;
-        this.currentGear=1;
         this.isManual=isManual;
+
+        this.currentGear=1;
     }
 
-    //no idea about getter function....added as told by someone
+    //no idea about getter function....added as told by someone,
+    //Tushar also dodont added it,as not asked in prblm statmnt , but lookin to errors u need to understand
     public int getWheels() {
         return wheels;
     }
@@ -36,9 +38,7 @@ public class Car extends Vehicle {
         return doors;
     }
 
-    public int getGears() {
-        return gears;
-    }
+    public int getGears() { return gears; }
 
     public boolean isManual() {
         return isManual;
