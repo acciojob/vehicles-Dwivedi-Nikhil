@@ -53,7 +53,8 @@ public class Car extends Vehicle {
     }
 
     public void changeGear(int newGear){
-        newGear=currentGear;
+       // newGear=currentGear; // Set currGear to new gear krna tha...ulta kiya tune
+        currentGear=newGear;
         System.out.println("changeGear method called - The gear is changed to: " + currentGear);
     }
 

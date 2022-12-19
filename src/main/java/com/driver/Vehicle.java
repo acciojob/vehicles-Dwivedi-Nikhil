@@ -21,24 +21,23 @@ public class Vehicle {
     public void move(int speed, int direction){
         //set the values of currentSpeed and currentDirection
 
-        currentSpeed += speed;
-        currentDirection += direction;
+//  mistakes      currentSpeed += speed;
+//        currentDirection += direction;
+        this.currentSpeed = speed;
+        this.currentDirection = direction;
+
         System.out.println("move method called - The speed is changed to: " + currentSpeed + ", and the direction is changed to: " + currentDirection + " degrees");
     }
 
     public int getCurrentDirection() {
         return currentDirection;
     }
-    public void setCurrentDirection(int currentDirection) {
-        this.currentDirection = currentDirection;
-    }
+   // public void setCurrentDirection(int currentDirection) {this.currentDirection = currentDirection;}
 
     public int getCurrentSpeed() {
         return currentSpeed;
     }
-    public void setCurrentSpeed(int currentSpeed) {
-        this.currentSpeed = currentSpeed;
-    }
+   // public void setCurrentSpeed(int currentSpeed) { this.currentSpeed = currentSpeed; }
 
     public String getName() {
         return name;
